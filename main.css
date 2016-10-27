@@ -1,0 +1,52 @@
+h1 {
+    font-family: "Dancing Script";
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    color: rgba(242, 242, 242,0.9);
+    margin: 0;
+    line-height: 300px;
+    }
+.inicio {
+    background-image: url(fondo3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+h2 {
+    color: white;
+    margin-top: 0;
+    font-family: "Dancing Script";
+    text-align: right;
+    margin-right: 180px;
+    font-size: 30px;
+    transition: all 2s;
+}
+h2:hover {
+    color: chartreuse;
+    font-size: 100px;
+}
+body {
+    margin: 0;
+}
+.summary {
+    font-family: Playball;
+    margin: 20px 200px 20px 200px;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(230, 255, 247);
+}
+a {
+    color: aquamarine;
+}
+a:hover {
+    color: black;
+}
+.flor {
+    width: 50px;
+}
+#ill {
+    display: inline;
+    display: inherit;
+}
