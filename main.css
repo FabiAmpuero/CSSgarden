@@ -1,54 +1,90 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 2;
+	color: #555753; 
+	margin: 0; 
+	padding: 0;
+	}
+
 h1 {
-    font-family: "Dancing Script";
-    font-size: 150px;
+    font-size: 110px;
     text-align: center;
-    color: white;
-    color: rgba(242, 242, 242,0.9);
+    color: rgba(242, 242, 242,0.85);
     margin: 0;
     line-height: 300px;
     }
-.intro {
+.intro header {
     background-image: url(fondo3.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 50px;
+    font-family: "Dancing Script";
 }
-
 h2 {
     color: white;
     margin-top: 0;
-    font-family: "Dancing Script";
     text-align: right;
-    margin-right: 180px;
+    margin-right: 30px;
     font-size: 30px;
     transition: all 2s;
+    font-weight: 100;
 }
-.inicio .
 h2:hover {
-    color: chartreuse;
-    font-size: 100px;
-}
-body {
-    margin: 0;
+    color: rgba(77, 255, 136, 0.9);
+    font-size: 85px;
 }
 .summary {
     font-family: Playball;
-    margin: 20px 200px 20px 200px;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 50px;
     text-align: center;
-    color: rgb(230, 255, 247);
+    color: rgba(102, 0, 51, 0.8);
 }
 a {
-    color: aquamarine;
+    color: rgb(102, 102, 153);
+    font-weight: bold; 
 }
 a:hover {
-    color: black;
+    color: #00004d;
 }
-.flor {
-    width: 50px;
+.page-wrapper { 
+	background: rgb(230, 204, 255); 
+	padding: 0 175px 0 175px;  
+	margin: 0; 
+	position: relative;
+    font-family: "Poiret One";
+    font-size: 25px;
+	}
+h3 {
+    font-family: "Dancing Script";
+    font-size: 35px;
 }
-#ill {
-    display: inline;
-    display: inherit;
+footer { 
+    border: 1px solid #DDD;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+	}
+footer a {
+    background: rgb(255, 77, 77);
+    border: 1px solid rgb(255, 77, 77);
+    border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+footer a:hover {
+    background: #FFF;
+    border: 1px solid rgb(255, 77, 77);
+    color: rgb(255, 77, 77);
+    animation: ease;
 }
